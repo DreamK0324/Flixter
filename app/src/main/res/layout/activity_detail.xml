@@ -17,6 +17,7 @@
         android:id="@+id/tvTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="#673AB7"
         android:textSize="30sp"
         android:textStyle="bold"
         tools:text="The Suicide Squad" />
