@@ -2,14 +2,15 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="#E8DEFA">
 
     <ImageView
         android:id="@+id/ivPoster"
-        android:layout_width="305dp"
-        android:layout_height="159dp"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="false"
@@ -22,40 +23,28 @@
 
     <TextView
         android:id="@+id/tvTitle"
-        android:layout_width="285dp"
-        android:layout_height="54dp"
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:textSize="24sp"
+        android:textColor="#673AB7"
+        android:textSize="21sp"
         android:textStyle="bold"
         tools:text='The Boss Baby: Family Busines"' />
 
     <TextView
         android:id="@+id/tvOverview"
-        android:layout_width="411dp"
+        android:layout_width="396dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvTitle"
-        android:layout_marginStart="7dp"
-        android:layout_marginTop="5dp"
-        android:layout_toEndOf="@+id/ivPoster"
-        android:textSize="15dp"
-        tools:text="The Templeton brothers — Tim and his Boss Baby little bro Ted — have become adults and drifted away from each other. But a new boss baby with a cutting-edge approach and a can-do attitude is about to bring them together again … and inspire a new family business." />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="115dp"
-        android:layout_height="60dp"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="300dp"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
         android:layout_toEndOf="@+id/ivPoster"
-        android:fontFamily="sans-serif-black"
-        android:text="GO"
-        android:textColor="#00BCD4"
-        android:textStyle="bold" />
+        android:textSize="14sp"
+        tools:text="The Templeton brothers — Tim and his Boss Baby little bro Ted — have become adults and drifted away from each other. But a new boss baby with a cutting-edge approach and a can-do attitude is about to bring them together again … and inspire a new family business." />
 
 </RelativeLayout>
